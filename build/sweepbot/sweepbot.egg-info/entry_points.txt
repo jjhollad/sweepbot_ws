@@ -1,0 +1,4 @@
+[console_scripts]
+base = sweepbot.base:main
+demo_sweep = sweepbot.demo_sweep:main
+

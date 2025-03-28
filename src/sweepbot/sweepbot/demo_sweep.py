@@ -46,19 +46,20 @@ def main():
     # Set our demo's initial pose
   #were gonna try it without all this junk
   #(might have too many things launching at the same time)
-#    initial_pose = PoseStamped()
-#    initial_pose.header.frame_id = 'map'
-#    initial_pose.header.stamp = navigator.get_clock().now().to_msg()
-#    initial_pose.pose.position.x = -0.013
-#    initial_pose.pose.position.y = -0.016
-#    initial_pose.pose.orientation.z = 1.0
-#    initial_pose.pose.orientation.w = 0.0
-#    navigator.setInitialPose(initial_pose)
+    initial_pose = PoseStamped()
+    initial_pose.header.frame_id = 'map'
+    initial_pose.header.stamp = navigator.get_clock().now().to_msg()
+    initial_pose.pose.position.x = -0.013
+    initial_pose.pose.position.y = -0.016
+    initial_pose.pose.orientation.z = 1.0
+    initial_pose.pose.orientation.w = 0.0
+    navigator.setInitialPose(initial_pose)
   #end of junk
-
+    navigator.lifecycleStartup()
+    print('you bout to have a real fun time!')
     # Wait for navigation to fully activate
-    navigator.waitUntilNav2Active()
-
+#    navigator.waitUntilNav2Active()
+    print('Congrats!')
     # Do security route until dead
     while rclpy.ok():
         # Send our route

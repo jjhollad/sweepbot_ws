@@ -1,0 +1,26 @@
+[0.659s] Invoking command in '/home/user/sweepbot_ws/src/sweepbot': PYTHONPATH=/home/user/sweepbot_ws/build/sweepbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/sweepbot_ws/install/sweepbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sweepbot build --build-base /home/user/sweepbot_ws/build/sweepbot/build install --record /home/user/sweepbot_ws/build/sweepbot/install.log --single-version-externally-managed install_data
+[0.909s] running egg_info
+[0.910s] writing ../../build/sweepbot/sweepbot.egg-info/PKG-INFO
+[0.910s] writing dependency_links to ../../build/sweepbot/sweepbot.egg-info/dependency_links.txt
+[0.910s] writing entry points to ../../build/sweepbot/sweepbot.egg-info/entry_points.txt
+[0.910s] writing requirements to ../../build/sweepbot/sweepbot.egg-info/requires.txt
+[0.910s] writing top-level names to ../../build/sweepbot/sweepbot.egg-info/top_level.txt
+[0.912s] reading manifest file '../../build/sweepbot/sweepbot.egg-info/SOURCES.txt'
+[0.912s] adding license file 'LICENSE'
+[0.913s] writing manifest file '../../build/sweepbot/sweepbot.egg-info/SOURCES.txt'
+[0.913s] running build
+[0.913s] running build_py
+[0.913s] copying sweepbot/demo_sweep.py -> /home/user/sweepbot_ws/build/sweepbot/build/lib/sweepbot
+[0.914s] running install
+[0.914s] running install_lib
+[0.915s] copying /home/user/sweepbot_ws/build/sweepbot/build/lib/sweepbot/demo_sweep.py -> /home/user/sweepbot_ws/install/sweepbot/lib/python3.10/site-packages/sweepbot
+[0.915s] byte-compiling /home/user/sweepbot_ws/install/sweepbot/lib/python3.10/site-packages/sweepbot/demo_sweep.py to demo_sweep.cpython-310.pyc
+[0.916s] running install_data
+[0.916s] running install_egg_info
+[0.918s] removing '/home/user/sweepbot_ws/install/sweepbot/lib/python3.10/site-packages/sweepbot-0.0.1-py3.10.egg-info' (and everything under it)
+[0.918s] Copying ../../build/sweepbot/sweepbot.egg-info to /home/user/sweepbot_ws/install/sweepbot/lib/python3.10/site-packages/sweepbot-0.0.1-py3.10.egg-info
+[0.919s] running install_scripts
+[0.941s] Installing base script to /home/user/sweepbot_ws/install/sweepbot/lib/sweepbot
+[0.941s] Installing demo_sweep script to /home/user/sweepbot_ws/install/sweepbot/lib/sweepbot
+[0.941s] writing list of installed files to '/home/user/sweepbot_ws/build/sweepbot/install.log'
+[0.966s] Invoked command in '/home/user/sweepbot_ws/src/sweepbot' returned '0': PYTHONPATH=/home/user/sweepbot_ws/build/sweepbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/sweepbot_ws/install/sweepbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sweepbot build --build-base /home/user/sweepbot_ws/build/sweepbot/build install --record /home/user/sweepbot_ws/build/sweepbot/install.log --single-version-externally-managed install_data

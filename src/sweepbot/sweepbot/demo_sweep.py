@@ -37,11 +37,11 @@ def main():
     # Security route, probably read in from a file for a real application
     # from either a map or drive and repeat.
     security_route = [
-        [1.508, 0.066],
-        [0.469, 1.073],
-        [2.027, 2.186],
-        [2.378, 0.141],
-        [-0.257, 0.579]]
+        [3.77125, -0.01564],
+        [3.6023, 2.0298],
+        [1.4186, 2.255],
+        [1.4749, 0.9977],
+        [0.0984, 1.0039]]
 
     # Set our demo's initial pose
   #were gonna try it without all this junk
@@ -58,6 +58,10 @@ def main():
     navigator.lifecycleStartup()
     print('you bout to have a real fun time!')
     # Wait for navigation to fully activate
+    #now running a default amount of time since this thing is deaf/blind to amcl
+    import time
+    print('wait 30 seconds!')
+    time.sleep(30)
 #    navigator.waitUntilNav2Active()
     print('Congrats!')
     # Do security route until dead

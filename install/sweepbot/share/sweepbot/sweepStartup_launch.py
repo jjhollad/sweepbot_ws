@@ -81,7 +81,7 @@ def launch_setup(context, *args, **kwargs):
 
     return [
         gzserver_cmd,
-        gzclient_cmd,
+#        gzclient_cmd,
         robot_state_publisher_cmd,
         spawn_turtlebot_cmd,
         cartographer_cmd,

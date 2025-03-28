@@ -2,9 +2,11 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>sweepbot</name>
-  <version>0.0.0</version>
+  <version>0.0.1</version>
   <description>TODO: Package description</description>
   <maintainer email="jjhollad@mtu.edu">user</maintainer>
+  
+ 
   <license>Apache-2.0</license>
 <exec_depend>demo_nodes_cpp</exec_depend>
 <exec_depend>demo_nodes_py</exec_depend>

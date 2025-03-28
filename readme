@@ -16,3 +16,6 @@ To get points run: ros2 topic echo /clicked_point
 then use the published points on rviz and click points to see them.
 To git Pull run: git pull origin master
 To run Killros.sh: ~/sweepbot_ws/killros.sh
+Want to push to the github: git add . 
+                            git commit -m "helpful message"
+                            git push
